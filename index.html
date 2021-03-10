@@ -9,23 +9,76 @@
     <title>Minha página</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav id="logo" class="navbar navbar-expand-lg navbar-light ">
         <a href="#" class="nabae-brand">
             <img src="img/global-labs.png" alt="logo global labs" width="120" height="100">
         </a>
-        <div class="collapse navbar-collapse">
+        <div id="canto" class="collapse navbar-collapse">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Quem somos</a>
+                    <a class="nav-link" href="#quem_somos">Quem somos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Parceiros</a>
+                    <a class="nav-link" href="#parceiros">Parceiros</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Serviços</a>
+                    <a class="nav-link" href="#servicos">Serviços</a>
                 </li>
             </ul>
         </div>
     </nav>
+
+    <section id="quem_somos">
+        <div class="container-fluid quem-somos text-center margin">
+            <h2>Quem somos</h2>
+            <img src="img/time.jpg" class="rounded-circle" alt="imagem representativa da equipe" width="400px" height="400px">
+            <h3>Somos um time comprometido com os resultados.</h3>
+        </div>
+    </section>
+    <section id="parceiros">
+        <div class="container-fluid parceiros text-center margin">
+            <h2>Parceiros</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="img/dio.png" alt="" width="100%">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="img/dio.png" alt="" width="100%"> 
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="img/dio.png" alt="" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="servicos">
+        <div class="container-fluid text-center margin servicos">
+            <h2>Serviços</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <p>Sed rhoncus pharetra nisi non consectetur. Maecenas ornare in tellus id sagittis. Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.</p>
+                        <img src="img/site1.jpg" alt="" width="100%" border-radius="50px">
+                    </div>
+                    <div class="col-lg-4">
+                        <p>Nulla hendrerit vulputate lorem id aliquam. Aliquam dapibus, velit quis tristique accumsan,
+                        sapien ante ultricies felis, sed varius lorem orci vel dolor.</p>
+                        <img src="img/app.jpg" alt="" width="100%">
+                    </div>
+                    <div class="col-lg-4">
+                        <p>Curabitur varius, orci ut malesuada tempus, lectus metus
+                        commodo magna, sed egestas massa urna ut metus. Phasellus porta laoreet metus none.</p>
+                        <img src="img/site2.jpg" alt="" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="Container-fluid text-center bg-footer margin">
+        <p>Desenvolvido por Eduarda Almeida</p>
+    </footer>
 </body>
 </html>

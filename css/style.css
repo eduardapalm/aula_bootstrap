@@ -1,0 +1,55 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.navbar {
+    background-color: #D4E6F1 ;
+}
+
+#canto {
+    margin-left: 50%;
+}
+
+#logo {
+    padding-left: 5%;
+}
+
+.nav-item {
+
+    padding-left: 50px;
+}
+
+.quem-somos {
+    background-color:#2980B9  ;
+    color: whitesmoke;
+}
+
+.margin {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h3, h2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.parceiros {
+   background-color: #D5D8DC;
+   color: rgb(61, 49, 49);
+}
+
+.servicos {
+    background-color: #A2D9CE;
+    color: rgb(0, 0, 0);
+}
+
+.servicos p {
+    color: rgb(39, 39, 39);
+}
+
+.bg-footer {
+    background-color: rgba(19, 19, 19, 0.897);
+    color: blanchedalmond;
+}
